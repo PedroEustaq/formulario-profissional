@@ -50,6 +50,8 @@ div#mtsImagen > img {
 div#formula {
     background: linear-gradient(to bottom, rgb(255, 255, 255),rgb(227, 227, 227));
     padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
     border-radius: 10px;
     max-width: 500px;
     box-shadow: 10px 10px 0px 0px black;
@@ -157,6 +159,7 @@ div#modelo {
 }
 div#black {
     width: 100%;
+    min-height: 300px;
 }
 div#black > h2 {
     margin-left: 5px;

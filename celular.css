@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-flow: column nowrap;
+        height: 100%;
+    }
+    section#lado1 {
+        width: 100%;
+        height: 50%;
+    }
+    main {
+        width: 100%;
+    }
+    div#modelo {
+        height: 150px;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    div#formula {
+        width: 100%;
+    }
+    div#black > h2 {
+        font-size: 80px;
+    }
+    div#black {
+        min-height: 0px;
+    }
+}
